@@ -1,0 +1,7 @@
+Convert Asterisk CSV call log to HTML. Quick and dirty.
+Also convert wav -> mp3 if MixMonitor was used.
+
+* apt-get install lame
+* vi bin/config.py
+* put bin/cron.py to crontab
+* allow access to root throught http (nginx) 
